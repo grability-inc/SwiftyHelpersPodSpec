@@ -29,7 +29,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/grability-inc/SwiftyHelpers.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/myrepo/Podspecs.git", :branch => "master",
+                   :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "Source/**/*.{swift}"
